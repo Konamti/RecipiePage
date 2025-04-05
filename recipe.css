@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+  --Brown800: hsl(14, 45%, 36%);
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+}
+
+body {
+  font-family: Outfit, sans-serif;
+  background-color: #f3e5d8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  max-width: 600px;
+  padding: 40px;
+  margin: 90px 0;
+  background-color: var(--Rose50);
+  border-radius: 15px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 37px;
+  color: var(--Stone900);
+  font-family: Young Serif, sans-serif;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+p {
+  font-size: 15px;
+  font-family: Outfit, sans-serif;
+  margin: 0px;
+  color: var(--Stone600);
+}
+span {
+  color: var(--Stone600);
+  font-weight: 800;
+}
+.second {
+  background-color: #f9e8f3af;
+  padding: 7px;
+  margin: 20px 0;
+  border-radius: 7px;
+}
+
+h3 {
+  padding: 0px 5px;
+  color: var(--Rose800);
+}
+
+ul li::marker {
+  color: var(--Rose800);
+}
+
+ul li {
+  padding-left: 16px;
+}
+
+li {
+  margin-top: 10px;
+  color: var(--Stone600);
+}
+h2 {
+  font-size: 24px;
+  color: var(--Brown800);
+  font-family: Young Serif, sans-serif;
+  font-weight: 400;
+}
+
+.ins,
+.nut {
+  font-size: 27px;
+  color: var(--Brown800);
+  font-family: Young Serif, sans-serif;
+  font-weight: 400;
+}
+
+hr {
+  color: #ddd;
+  margin: 40px 0;
+}
+
+ol li::marker {
+  color: var(--Brown800);
+  font-weight: 600;
+}
+
+ol li {
+  font-size: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+td:nth-child(odd) {
+  color: var(--Stone600);
+}
+td:nth-child(even) {
+  color: var(--Brown800);
+  font-weight: 600;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+@media (max-width: 375px) {
+  .card {
+    padding: 20px;
+  }
+  img {
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 27px;
+    font-weight: 400;
+  }
+  .first {
+    padding: 10px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .second {
+    padding: 20px;
+  }
+  ol li {
+    font-size: 16px;
+  }
+}
