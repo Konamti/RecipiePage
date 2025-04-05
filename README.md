@@ -23,8 +23,8 @@ Frontend Mentor Recipe page
 
 ### Links
 
-- Solution URL: [https://github.com/Konamti/konamti.github.io.git]
-- Live Site URL: [https://konamti.github.io/]
+- Solution URL: [https://github.com/Konamti/RecipiePage.git]
+- Live Site URL: [https://konamti.github.io/RecipiePage/]
 
 ## My process
 
@@ -36,7 +36,7 @@ Frontend Mentor Recipe page
 
 ### What I learned
 
-I learnt a new property I had difficulty understanding for time in CSS. I also learnt how insert attribution.
+I learnt the following properties below. I didn't know much about the ::marker pseudo-element.
 
 ```css
 td:nth-child(odd) {
@@ -62,7 +62,7 @@ I would like to improve my CSS responsive skills alot and flexbox properties. I 
 
 ### Useful resources
 
-N/A
+W3schools
 
 ## Author
 
